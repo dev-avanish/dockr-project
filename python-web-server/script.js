@@ -1,8 +1,3 @@
-const messages = [
-    "Hello from Docker!",
-   
-];
+const message = "Hello from Docker!"
 
-document.getElementById("welcome-message").textContent = 
-    messages[Math.floor(Math.random() * messages.length)];
-
+document.getElementById("welcome-message").textContent = message

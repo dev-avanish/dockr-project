@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #c6d51e;
-    color: #0db1f7;
+    background-color: hsla(303, 71%, 34%, 0.89);
+    color: hsl(199, 80%, 24%);
     padding: 50px;
 }
 
@@ -10,9 +10,9 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 10px 200px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 8s ease-in-out;
 }
 
 @keyframes fadeIn {
